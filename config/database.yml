@@ -3,8 +3,8 @@
 development:
   adapter: mysql
   database: magazineSupermarket_development
-  username: devrailsuser
-  password: devrailspassword
+  username: root
+  password: admin
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -13,14 +13,14 @@ development:
 test:
   adapter: mysql
   database: magazineSupermarket_test
-  username: tstrailsuser
-  password: tstrailspassword
+  username: root
+  password: admin
   host: localhost
 
 production:
   adapter: mysql
   database: magazineSupermarket_production
-  username: prodrailsuser
-  password: prodrailspassword
+  username: root
+  password: admin
   host: localhost
 
